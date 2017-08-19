@@ -6,12 +6,8 @@ class FootballLeaguePerformance(object):
         with open(filename) as fbresult:
             clubNamesList =[]
             goalDiff = []
-            # smallestClubWithGoalDiff = []
-            # smallestGoalDiff = []
             fbresult.next()
             newResult = []
-            # tempGoalFor = []
-            # tempGoalAgainst = []
             for team in fbresult:
                 team = team.split()
                 clubNames = []
